@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nate's Calculator</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="calculator-frame">
+      <div class="screen-container">
+        <div class="screen-container-top">
+          <h1>Calculator</h1>
+        </div>
+        <div class="screen-container-bottom">
+          <div id="screen-equation" class="screen-equation"></div>
+          <div id="screen-output" class="screen-output">0</div>
+        </div>
+      </div>
+      <div class="buttons-container-padding">
+        <div class="buttons-container">
+          <button id="clear" class="button-styles">AC</button>
+          <button id="back" class="button-styles">
+            <i class="fa-solid fa-delete-left"></i>
+          </button>
+          <button id="percent" class="button-styles">%</button>
+          <button id="divide" class="button-styles functional-button-style">
+            <i class="fa-solid fa-divide"></i>
+          </button>
+
+          <button id="7" class="button-styles">7</button>
+          <button id="8" class="button-styles">8</button>
+          <button id="9" class="button-styles">9</button>
+          <button id="multiply" class="button-styles functional-button-style">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+
+          <button id="4" class="button-styles">4</button>
+          <button id="5" class="button-styles">5</button>
+          <button id="6" class="button-styles">6</button>
+          <button id="minus" class="button-styles functional-button-style">
+            <i class="fa-solid fa-minus"></i>
+          </button>
+
+          <button id="1" class="button-styles">1</button>
+          <button id="2" class="button-styles">2</button>
+          <button id="3" class="button-styles">3</button>
+          <button id="plus" class="button-styles functional-button-style">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+
+          <button id="random" class="button-styles random-number-style">
+            R
+          </button>
+          <button id="0" class="button-styles">0</button>
+          <button id="decimal" class="button-styles">.</button>
+          <button id="equals" class="button-styles equal-button-style">
+            <i class="fa-solid fa-equals"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- <i class="fa-solid fa-delete-left"></i> -->
