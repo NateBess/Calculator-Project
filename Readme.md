@@ -22,6 +22,7 @@ I built this as a technical assessment for Andy Sterkowitz's Software Developmen
 It is a simple webpage that shows a running digital clock.
 
 This calculator does math following the order of operations.
+I also added a random number button, that will enter a random number between 1 and 100.
 
 ## Author
 
