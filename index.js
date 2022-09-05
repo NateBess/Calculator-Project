@@ -13,14 +13,13 @@ const num0 = document.getElementById("0"); //Added
 
 const buttonAllClear = document.getElementById("clear"); //Added
 const buttonBackspace = document.getElementById("back"); //Added
-const buttonPercent = document.getElementById("percent"); //Added
 const buttonDivide = document.getElementById("divide"); //Added
 const buttonMultiply = document.getElementById("multiply"); //Added
 const buttonMinus = document.getElementById("minus"); //Added
 const buttonPlus = document.getElementById("plus"); //Added
-const buttonRandom = document.getElementById("random");
-const buttonDecimal = document.getElementById("decimal");
-const buttonEquals = document.getElementById("equals");
+const buttonRandom = document.getElementById("random"); //Added
+const buttonDecimal = document.getElementById("decimal"); //Added
+const buttonEquals = document.getElementById("equals"); //Added
 
 const updateScreenOutput = () => {
   const screenOutput = document.getElementById("screen-output");
@@ -105,9 +104,6 @@ buttonBackspace.onclick = () => {
   updateScreenOutput();
 };
 
-buttonPercent.onclick = () => {
-  equationArray.push("%");
-};
 buttonDivide.onclick = () => {
   equationArray.push("#/#");
 
