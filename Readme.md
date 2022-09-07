@@ -21,7 +21,12 @@ View this project [here](https://natebess.github.io/Calculator-Project/)
 I built this as a technical assessment for Andy Sterkowitz's Software Development MasterMind Program.
 It is a simple webpage that shows a running digital clock.
 
-This calculator does math following the order of operations.
+This calculator does math in the following order:
+-Multiplication
+-Division
+-Addition
+-Subtraction
+
 I also added a random number button, that will enter a random number between 1 and 100.
 
 ## Author
